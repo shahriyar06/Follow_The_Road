@@ -14,7 +14,7 @@
     <header>
         <!-- Navbar Section -->
         <nav>
-            <div class="website_title nav_sitename">
+            <div class="website_title nav_site_name">
                 <img src="assets/Group 40071 (2).png" alt="Travel Logo">
                 <h1 class="website_name">Follow <span>The Road</span></h1>
             </div>
@@ -34,14 +34,45 @@
             </div>
             <div class="banner_input">
                 <input type="text" class="input_box" placeholder="Where go">
-                <input type="text" class="input_box" placeholder="When " >
-                <input type="text" class="input_box" placeholder="Select Type">
+                <select name="" id="when_option" class="input_box" >
+                    <option value="when">When</option>
+                    <option value="maldives">Maldives</option>
+                    <option value="indonesia">Indonesia</option>
+                    <option value="north_america">North America</option>
+                    <option value="kashmir">Kashmir</option>
+                </select>
+                <!-- <input type="text" class="input_box" placeholder="When " > -->
+                <!-- <input type="text" class="input_box" placeholder="Select Type"> -->
+                <select name="" id="type_option" class="input_box" >
+                    <option value="when">Select Type</option>
+                    <option value="maldives">Maldives</option>
+                    <option value="indonesia">Indonesia</option>
+                    <option value="north_america">North America</option>
+                    <option value="kashmir">Kashmir</option>
+                </select>
                 <button class="button_style"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
             </div>
         </div>
     </header>
     <main>
-
+        <!-- Newsletter Section -->
+        <section>
+            <div class="newsletter_container">
+                <div class="newsletter">
+                    <div class="newsletter_input">
+                        <h2>Newsletter</h2>
+                        <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                        <hr>
+                        <input type="text" name="" class="newsletter_style" placeholder="Enter your name">
+                        <input type="email" name="" class="newsletter_style gap" placeholder="Enter your email">
+                        <button class="newsletter_btn">Subscribe</button>
+                    </div>
+                </div>
+                <div class="newsletter_img">
+                    <img src="assets/Rectangle 8 (1).png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Footer section -->
     <footer>
@@ -60,7 +91,7 @@
                 <div><i class="fa-brands fa-github"></i></div>
             </div>
             <hr>
-            <h1 class="footer_copywrite">2017, All Rights Reserved.</h1>
+            <h1 class="footer_copy_write">2017, All Rights Reserved.</h1>
         </div>
     </footer>
 </body>

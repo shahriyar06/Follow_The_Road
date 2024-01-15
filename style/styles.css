@@ -6,7 +6,7 @@ body{
 }
 .website_title{
     display: flex;
-    gap: 16px;
+    gap: 1rem;
 }
 .website_name{
     color: #131318;
@@ -30,8 +30,9 @@ nav{
     max-width: 1170px;
     margin: 90px auto 50px;
 }
-.nav_sitename{
+.nav_site_name{
     max-width: 340px;
+    align-items: center;
 }
 nav > ul{
     display: flex;
@@ -51,7 +52,7 @@ nav li >a:hover{
 }
 /* Banner */
 .banner{
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto 100px;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../assets/Group\ 13\ \(1\)\ \(1\).png);
@@ -88,23 +89,75 @@ nav li >a:hover{
     border-radius: 8px;
     background: #FFF;
     border: 0;
+    padding: 0 16px;
 }
 .input_box > ::placeholder{
-    color: rgba(19, 19, 24, 0.50);
+    color: black;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    padding-left: 16px;
 }
 .button_style{
     text-align: center;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 400;
     width: 174px;
     height: 50px;
 }
 .button_style > i{
     margin-right: 10px;
+}
+/* Newsletter */
+.newsletter_container{
+    max-width: 1170px;
+    margin: 0 auto 100px;
+    display: flex;
+    gap: 28px;
+}
+.newsletter{
+    max-width: 420px;
+    padding: 26px;
+    border-radius: 1rem;
+    border: 1px solid #FF5400;
+}
+.newsletter_input >h2{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 0.75rem;
+}
+.newsletter_input >p{
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    margin: 1rem 0 1.5rem;
+}
+.newsletter_input >hr{
+    height: .1rem;
+    background: rgba(19, 19, 24, 0.10);
+    border: 0;
+    margin-bottom: 1.5rem;
+}
+.newsletter_style {
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    padding-left: 1rem;
+}
+.gap{
+    margin: 1rem 0 1.5rem;
+}
+.newsletter_btn{
+    width: 420px;
+    height: 50px;
+}
+.newsletter_img{
+    max-width: 660px;
+    border-radius: 16px;
 }
 /* Footer Section */
 footer{
@@ -121,6 +174,7 @@ footer{
     max-width: 320px;
     align-items: center;
     margin: 0 auto;
+    gap: 1rem;
 }
 .footer_details{
     max-width: 800px;
@@ -141,7 +195,7 @@ footer{
     border: 1px solid rgba(19, 19, 24, 0.10);
     margin: 50px auto;
 }
-.footer_copywrite{
+.footer_copy_write{
     color: #131318;
     font-size: 1rem;
     font-weight: 300;
