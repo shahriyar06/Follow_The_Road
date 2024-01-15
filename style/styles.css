@@ -60,4 +60,18 @@ footer{
     .website_name{
         font-size: 1.4rem;
     }
+    /* footer section */
+    .footer_container{
+        max-width: 500px;
+    }
+    .footer_title{
+        max-width: 280px;
+    }
+    .footer_details{
+        max-width: 430px;
+    }
+    .footer_container > hr{
+        max-width: 590px;
+        margin: 30px auto;
+    }
 }
