@@ -16,6 +16,12 @@ body{
 .website_name > span{
     color: #FF5400;
 }
+button{
+    color: #FFF;
+    background-color: #FF5400;
+    border: 0;
+    border-radius: 8px;
+}
 /* Header Section */
 /* Navbar */
 nav{
@@ -36,7 +42,7 @@ nav li{
 nav li >a{
     color: black;
     text-decoration: none;
-    margin-right: 44px;
+    margin-left: 44px;
     font-size: 1.2rem;
     font-weight: 400;
 }
@@ -44,7 +50,62 @@ nav li >a:hover{
     color: #FF5400;
 }
 /* Banner */
-
+.banner{
+    width: 1170px;
+    margin: 0 auto 100px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../assets/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    padding: 106px 0;
+}
+.banner h2{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+.banner_description{
+    max-width: 680px;
+    margin: 24px auto 48px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem; 
+}
+.banner_input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.input_box{
+    width: 174px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+}
+.input_box > ::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 16px;
+}
+.button_style{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 174px;
+    height: 50px;
+}
+.button_style > i{
+    margin-right: 10px;
+}
 /* Footer Section */
 footer{
     background-color: rgba(19, 19, 24, 0.05);
