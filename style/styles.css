@@ -505,10 +505,7 @@ footer{
     text-align: center;
 }
 
-/* Responsive Styles */
-.hide{
-    display: none;
-}
+/* Responsive Styles -----------------------------------------------------------------> */
 /* Mobile Resposive */
 @media screen and (max-width: 600px) {
     .website_name{
@@ -651,20 +648,37 @@ footer{
     .deals_title p{
         font-size: 0.9rem;
     }
+    .deal_bg_image{
+        padding: 187px 8px 8px;
+    }
+    .deal_background_image{
+        padding: 187px 8px 8px;
+    }
     .deals_offer_container{
         width: 300px;
+        padding: 0.5rem;
     }
-    .deals_dayes_info{
+    .deals_days{
         flex-wrap: wrap;
+        gap: 8px;
     }
     .deals_offer_container h2{
         font-size: 1.2rem;
+        margin: 8px 0;
     }
     .deals_offer_container p{
         font-size: 0.8rem;
     }
     .deals_offer_container h3{
         font-size: 1rem;
+    }
+    .offer_button{
+        width: 100px;
+        height: 30px;
+    }
+    .deals_button{
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
     }
     /* Newsletter Section */
     .newsletter_container{
