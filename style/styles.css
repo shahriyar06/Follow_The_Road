@@ -22,7 +22,7 @@ button{
     border: 0;
     border-radius: 8px;
 }
-/* Header Section */
+/* <------------- Header Section ---------> */
 /* Navbar */
 nav{
     display: flex;
@@ -117,7 +117,6 @@ nav li >a:hover{
 }
 .description_container > h2{
     color: #131318;
-    text-align: center;
     font-size: 2.5rem;
     font-weight: 800;
 }
@@ -443,6 +442,7 @@ footer{
     display: flex;
     justify-content: center;
     gap: 18px;
+    font-size: 2rem;
 }
 .footer_container > hr{
     max-width: 890px;
@@ -456,23 +456,37 @@ footer{
     text-align: center;
 }
 
-/* Responsive */
+/* Responsive Styles */
+.hide{
+    display: none;
+}
+/* Mobile Resposive */
 @media screen and (max-width: 600px) {
     .website_name{
         font-size: 1.4rem;
     }
+    /* Popular Tour */
+    .popular_tour_container{
+        flex-direction: column;
+        max-width: 420px;
+    }
+    .description_container > h2{
+        font-size: 1.3rem;
+    }
+    #description{
+        width: 420px;
+    }
+    .image_container>img{
+        max-width: 420px;
+    }
     /* footer section */
     .footer_container{
-        max-width: 500px;
+        max-width: 420px;
     }
     .footer_title{
-        max-width: 280px;
+        max-width: 260px;
     }
     .footer_details{
-        max-width: 430px;
-    }
-    .footer_container > hr{
-        max-width: 590px;
-        margin: 30px auto;
+        max-width: 390px;
     }
 }
