@@ -508,6 +508,37 @@ footer{
     .image_container>img{
         max-width: 420px;
     }
+    /* Choose us Section */
+    .choose_container{
+        max-width: 420px;
+    }
+    .choose_title{
+        width: 310px;
+    }
+    .choose_title h2{
+        font-size: 1.3rem;
+    }
+    .choose_service_container{
+        flex-direction: column;
+    }
+    .choose_service{
+        max-width: 420px;
+        padding: 2rem 0 2rem 2rem;
+    }
+    .choose_service>h3 , .price_tag>h3{
+        font-size: 1.3rem;
+        max-width: 300px;
+    }
+    .choose_service>p , .price_tag>p{
+        font-size: 0.9rem;
+    }
+    .price_tag{
+        max-width: 420px;
+    }
+    .choose_service>p , .price_tag>p{
+        max-width: 350px;
+    }
+    
     /* footer section */
     .footer_container{
         max-width: 420px;
