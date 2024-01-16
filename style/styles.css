@@ -606,7 +606,7 @@ footer{
         flex-direction: column;
     }
     .choose_service{
-        max-width: 420px;
+        width: 390px;
         padding: 2rem 0 2rem 2rem;
     }
     .choose_service>h3 , .price_tag>h3{
@@ -637,7 +637,6 @@ footer{
     .category{
         margin: 0 auto;
     }
-    
     /* Newsletter Section */
     .newsletter_container{
         max-width: 420px;
@@ -652,6 +651,12 @@ footer{
         position: absolute;
         left: 320px;
         top: 218px;
+    }
+    .newsletter_btn{
+        width: 365px;
+    }
+    .newsletter_style {
+        width: 350px;
     }
     /* footer section */
     .footer_container{
