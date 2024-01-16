@@ -92,10 +92,13 @@ nav li >a:hover{
     padding: 0 16px;
 }
 .input_box > ::placeholder{
-    color: black;
+    color: rgba(19, 19, 24, 0.50);;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+}
+#when_option , #type_option {
+    color: rgba(19, 19, 24, 0.50); 
 }
 .button_style{
     text-align: center;
@@ -463,7 +466,33 @@ footer{
 /* Mobile Resposive */
 @media screen and (max-width: 600px) {
     .website_name{
+        font-size: 1.3rem;
+    }
+    /* Banner */
+    .banner{
+        max-width: 420px;
+        padding: 2rem 0;
+    }
+    .banner h2{
         font-size: 1.4rem;
+    }
+    .banner_description{
+        max-width: 19rem;
+        font-size: 0.9rem; 
+    }
+    .banner_input{
+        flex-direction: column;
+        max-width: 18.75rem;
+        gap: 1rem;
+        align-items: center;
+    }
+    .input_box {
+        width: 15.94rem;
+        height: 3.2rem;
+    }
+    #when_option , #type_option , .button_style{
+        width: 17.63rem;
+        height: 3.2rem;
     }
     /* Popular Tour */
     .popular_tour_container{
@@ -487,6 +516,6 @@ footer{
         max-width: 260px;
     }
     .footer_details{
-        max-width: 390px;
+        max-width: 380px;
     }
 }
