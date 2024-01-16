@@ -436,7 +436,6 @@ nav li >a:hover{
 .newsletter_img{
     width: 660px;
     border-radius: 16px;
-    background-image: url(../assets/Rectangle\ 8\ \(1\).png);
     position: relative;
 }
 .discount_container{
@@ -516,7 +515,7 @@ footer{
     }
     /* Navbar */
     nav{
-        max-width: 420px;
+        max-width: 335px;
         align-items: center;
     }
     nav ul{
@@ -527,8 +526,8 @@ footer{
     }
     /* Banner */
     .banner{
-        width: 420px;
-        height: 483px;
+        width: 330px;
+        height: 520px;
         padding: 2rem 0;
     }
     .banner h2{
@@ -540,9 +539,10 @@ footer{
     }
     .banner_input{
         flex-direction: column;
-        max-width: 18.75rem;
+        max-width: 280px;
         gap: 1rem;
         align-items: center;
+        margin-bottom: 10px;
     }
     .input_box {
         width: 15.94rem;
@@ -555,20 +555,20 @@ footer{
     /* Popular Tour */
     .popular_tour_container{
         flex-direction: column;
-        max-width: 420px;
+        max-width: 335px;
     }
     .description_container > h2{
         font-size: 1.3rem;
     }
     #description{
-        width: 420px;
+        width: 335px;
     }
     .image_container>img{
-        max-width: 420px;
+        max-width: 335px;
     }
     /* Destination */
     .Destination_container , .destination_title{
-        max-width: 420px;
+        max-width: 335px;
     }
     .destination_title h2{
         font-size: 1.3rem;
@@ -581,7 +581,7 @@ footer{
         
     }
     .destination_img_row div{
-        width: 420px;
+        width: 335px;
         height: 200px;
     }
     .destination_img_row img{
@@ -594,10 +594,10 @@ footer{
     }
     /* Choose us Section */
     .choose_container{
-        max-width: 420px;
+        max-width: 335px;
     }
     .choose_title{
-        width: 310px;
+        width: 290px;
     }
     .choose_title h2{
         font-size: 1.3rem;
@@ -606,12 +606,12 @@ footer{
         flex-direction: column;
     }
     .choose_service{
-        width: 390px;
+        width: 302px;
         padding: 2rem 0 2rem 2rem;
     }
     .choose_service>h3 , .price_tag>h3{
-        font-size: 1.3rem;
-        max-width: 300px;
+        font-size: 1.2rem;
+        max-width: 290px;
     }
     .choose_service>p , .price_tag>p{
         font-size: 0.9rem;
@@ -620,10 +620,11 @@ footer{
         max-width: 420px;
     }
     .choose_service>p , .price_tag>p{
-        max-width: 350px;
+        max-width: 300px;
     }
+    /* Category */
     .category_container{
-        max-width: 420px;
+        max-width: 335px;
     }
     .category_title h2{
         font-size: 1.3rem;
@@ -639,12 +640,13 @@ footer{
     }
     /* Newsletter Section */
     .newsletter_container{
-        max-width: 420px;
+        max-width: 335px;
         flex-direction: column;
     }
-    .newsletter_img{
-        width: 660px;
-        position: relative;
+    
+    .newsletter_input >p{
+        width: 300px;
+        font-size: 0.9rem;
     }
     .discount_container{
         width: 324px;
@@ -653,19 +655,35 @@ footer{
         top: 218px;
     }
     .newsletter_btn{
-        width: 365px;
+        width: 282px;
     }
     .newsletter_style {
-        width: 350px;
+        width: 265px;
+    }
+    .newsletter_img img{
+        width: 335px;
+        height: 300px;
+    }
+    .discount_container{
+        width: 200px;
+        padding: 16px;
+        left: 100px;
+        top: 190px;
+    }
+    .discount_container >h4{
+        font-size: 14px;
+    }
+    .discount_container >h2{
+        font-size: 20px;
     }
     /* footer section */
     .footer_container{
-        max-width: 420px;
+        max-width: 335px;
     }
     .footer_title{
         max-width: 260px;
     }
     .footer_details{
-        max-width: 380px;
+        max-width: 300px;
     }
 }
