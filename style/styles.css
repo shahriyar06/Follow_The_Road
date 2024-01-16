@@ -403,8 +403,8 @@ nav li >a:hover{
     transform: rotate(-19.628deg);
     background: #FF5400;
     position: absolute;
-    left: 200px;
-    top: 200px;
+    left: 320px;
+    top: 218px;
 }
 .discount_container >h4{
     color: #FFF;
@@ -564,7 +564,8 @@ footer{
     .choose_service>p , .price_tag>p{
         max-width: 350px;
     }
-    
+    /* Newsletter Section */
+
     /* footer section */
     .footer_container{
         max-width: 420px;
