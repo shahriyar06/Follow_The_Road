@@ -50,7 +50,7 @@ nav li >a{
 nav li >a:hover{
     color: #FF5400;
 }
-.bar{
+.navbar{
     display: none;
 }
 /* Banner */
@@ -521,7 +521,7 @@ footer{
     nav ul{
         display: none;
     }
-    nav .bar{
+    nav .navbar{
         display: block;
     }
     /* Banner */
