@@ -394,6 +394,7 @@ nav li >a:hover{
     width: 660px;
     border-radius: 16px;
     background-image: url(../assets/Rectangle\ 8\ \(1\).png);
+    position: relative;
 }
 .discount_container{
     border-radius: 1rem;
@@ -401,7 +402,9 @@ nav li >a:hover{
     padding: 35px 0;
     transform: rotate(-19.628deg);
     background: #FF5400;
-    position: right;
+    position: absolute;
+    left: 200px;
+    top: 200px;
 }
 .discount_container >h4{
     color: #FFF;
@@ -470,7 +473,8 @@ footer{
     }
     /* Banner */
     .banner{
-        max-width: 420px;
+        width: 420px;
+        height: 483px;
         padding: 2rem 0;
     }
     .banner h2{
@@ -507,6 +511,28 @@ footer{
     }
     .image_container>img{
         max-width: 420px;
+    }
+    /* Destination */
+    .Destination_container , .destination_title{
+        max-width: 420px;
+    }
+    .destination_title h2{
+        font-size: 1.3rem;
+    }
+    .destination_title p{
+        font-size: 0.9rem;
+    }
+    .destination_img_row{
+        flex-direction: column;
+        
+    }
+    .destination_img_row div{
+        width: 420px;
+        height: 200px;
+    }
+    .destination_img_row img{
+        width: 100%;
+        height: 100%;
     }
     /* Choose us Section */
     .choose_container{
