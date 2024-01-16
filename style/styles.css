@@ -60,6 +60,7 @@ nav li >a:hover{
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../assets/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 106px 0;
 }
 .banner h2{
@@ -527,7 +528,7 @@ footer{
     /* Banner */
     .banner{
         width: 330px;
-        height: 520px;
+        height: 490px;
         padding: 2rem 0;
     }
     .banner h2{
@@ -542,7 +543,6 @@ footer{
         max-width: 280px;
         gap: 1rem;
         align-items: center;
-        margin-bottom: 10px;
     }
     .input_box {
         width: 15.94rem;
@@ -590,7 +590,7 @@ footer{
     }
     .Maldives h3{
         top: 45%;
-        left: 40%;
+        left: 35%;
     }
     /* Choose us Section */
     .choose_container{
@@ -637,6 +637,34 @@ footer{
     }
     .category{
         margin: 0 auto;
+    }
+    /* Deals And Discount */
+    .deals_container{
+        max-width: 335px;
+    }
+    .deals_title{
+        width: 335px;
+    }
+    .deals_title h2{
+        font-size: 1.3rem;
+    }
+    .deals_title p{
+        font-size: 0.9rem;
+    }
+    .deals_offer_container{
+        width: 300px;
+    }
+    .deals_dayes_info{
+        flex-wrap: wrap;
+    }
+    .deals_offer_container h2{
+        font-size: 1.2rem;
+    }
+    .deals_offer_container p{
+        font-size: 0.8rem;
+    }
+    .deals_offer_container h3{
+        font-size: 1rem;
     }
     /* Newsletter Section */
     .newsletter_container{
