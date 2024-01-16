@@ -50,6 +50,9 @@ nav li >a{
 nav li >a:hover{
     color: #FF5400;
 }
+.bar{
+    display: none;
+}
 /* Banner */
 .banner{
     max-width: 1170px;
@@ -471,6 +474,17 @@ footer{
     .website_name{
         font-size: 1.3rem;
     }
+    /* Navbar */
+    nav{
+        max-width: 420px;
+        align-items: center;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .bar{
+        display: block;
+    }
     /* Banner */
     .banner{
         width: 420px;
@@ -565,7 +579,20 @@ footer{
         max-width: 350px;
     }
     /* Newsletter Section */
-
+    .newsletter_container{
+        max-width: 420px;
+        flex-direction: column;
+    }
+    .newsletter_img{
+        width: 660px;
+        position: relative;
+    }
+    .discount_container{
+        width: 324px;
+        position: absolute;
+        left: 320px;
+        top: 218px;
+    }
     /* footer section */
     .footer_container{
         max-width: 420px;
